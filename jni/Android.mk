@@ -93,9 +93,10 @@ Box2D/Dynamics/Joints/b2PulleyJoint.h \
 Box2D/Dynamics/Joints/b2RevoluteJoint.cpp \
 Box2D/Dynamics/Joints/b2RevoluteJoint.h \
 Box2D/Dynamics/Joints/b2WeldJoint.cpp \
-Box2D/Dynamics/Joints/b2WeldJoint.h
-				   
-				   
+Box2D/Dynamics/Joints/b2WeldJoint.h \
+iforce2d/iforce2d_Buoyancy_functions.h \
+iforce2d/iforce2d_buoyancy_BuoyancyFunctions.cpp
+
 LOCAL_CFLAGS := -DFIXED_POINT -ffast-math -O3 -Wall -I$(LOCAL_PATH) -D_ARM_ASSEM_ -DANDROID
 LOCAL_CPPFLAGS := -DFIXED_POINT -I$LOCAL_PATH/libvorbis/ -D_ARM_ASSEM_
 LOCAL_LDLIBS := -llog
